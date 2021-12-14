@@ -639,7 +639,7 @@ int main() {
                     ImGui::BeginChild(("##velocity_child"), ImVec2(200, 240), true);
                     {
                         if (v::gui::memeversion) {
-                            ImGui::Text(("Not taking Knockback"));
+                            ImGui::Text(("Not taking Any Knockback"));
                         } else {
                             ImGui::Text(("Velocity"));
                         }
